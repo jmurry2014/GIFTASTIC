@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GIFTASTIC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!--navbar -->
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">GIFTASTIC</span>
+    </nav>
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Welcome to GIFTASTIC!</h1>
+            <p class="lead">Type in anything you would like and we will find a GIF that correlates with your submission!
+            </p>
+        </div>
+        <div id="searches">
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- form -->
+    <form id="naruto-form">
+        <label for="naruto-input">Add a Naruto Character</label>
+        <input type="text" id="naruto-input" class="form-control"><br>
+        <input id="add-choice" type="submit" class="btn btn-primary mb-2" svalue="Submit">
+    </form>
+    <script src="/gif.js"></script>
+</body>
+
+</html>
