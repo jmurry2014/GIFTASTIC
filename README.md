@@ -3,7 +3,7 @@ Giftastic is a javascript application that uses ajax to create a GET request in 
 ## Installation
 
 Simply click on the link below and type in any character of your choice then watch the magic happen!
-```
-[I'm an inline-style link](https://www.google.com)
+
+[GIFTASTIC](https://jmurry2014.github.io/GIFTASTIC/)
 
 
