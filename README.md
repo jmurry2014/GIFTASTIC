@@ -4,6 +4,6 @@ GIftastic is a javascript application that uses ajax to create a GET request in 
 
 Simply click on the lin kbelow and type in any character of your choice then watch the magic happen!
 ```
- (https://jmurry2014.github.io/GIFTASTIC/.)
+ [GIFTASTIC](https://jmurry2014.github.io/GIFTASTIC/.)
 
 
