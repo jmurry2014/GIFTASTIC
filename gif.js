@@ -23,7 +23,7 @@ $(document).on('click', '.narutoButton', function () {
 
     var character = $(this).data('type')
     console.log(character)
-    var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + character + '&api_key=tQNI7UCgtwJRKmpgwwySCiQr8nnzaA4u&limit=5'
+    var queryURL = '//api.giphy.com/v1/gifs/search?q=' + character + '&api_key=tQNI7UCgtwJRKmpgwwySCiQr8nnzaA4u&limit=5'
 
 
     $.ajax({
